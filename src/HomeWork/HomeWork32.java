@@ -1,5 +1,6 @@
 package HomeWork;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class HomeWork32 {
@@ -9,7 +10,7 @@ public class HomeWork32 {
         //2) User should be prompted for the values of the numbers
         //3) Reverse the all the given numbers and print it
         Scanner scan = new Scanner(System.in);
-        System.out.println("Please enter the number ");
+        System.out.println("Please enter of array size: ");
         int number = scan.nextInt();
         int[] array= new int[number];
 
@@ -17,23 +18,19 @@ public class HomeWork32 {
             System.out.println("Please enter the "+(i+1)+". number: ");
             int num = scan.nextInt();
             array[i] = num;
-        }
-
-        int sum=0;
-        for (int i = 0; i <array.length ; i++) {
-
-            sum=sum+array[i];
 
         }
+        int [] reversedArray = new int[number];
+                int reversed = 0;
+                for (int i=array.length-1; i>=0; i--){
+                    reversedArray[i] = array[reversed];
+                    reversed++;
+                }
+                System.out.println("Original array: "+Arrays.toString(array));
+                System.out.println("Reversed Array: "+ Arrays.toString(reversedArray));
 
-        System.out.println("the sum of all the number in the array is: "+sum);
-        String reversed1 = " ";
-        for (int l = array.length; l > 0 ; l--) {
 
-            reversed1= String.valueOf(reversed1.charAt(l));
-            l++;
 
         }
-        System.out.println(" the value of the reversed: "+reversed1);
     }
-}
+
