@@ -23,5 +23,7 @@ public class HomeWork33 {
         System.out.println("The average employee salary: "+sum/size);
 
 
+        }
+
     }
-}
+
