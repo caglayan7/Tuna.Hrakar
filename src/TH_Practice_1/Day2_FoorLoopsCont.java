@@ -36,21 +36,10 @@ public class Day2_FoorLoopsCont {
         }
         System.out.println(sum);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }//end main
+
+
+
+
+
 }//end class
