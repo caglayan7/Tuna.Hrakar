@@ -8,5 +8,5 @@ public class HomeWork37 {
         // when integer value is 3 it returns to the multiplication of those
         // 2 double numbers, and when the integer value is 4 it returns the division of those 2 double numbers
 
-    }
+    }//end main
 }
