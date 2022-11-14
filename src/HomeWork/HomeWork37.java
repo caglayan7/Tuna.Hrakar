@@ -8,5 +8,26 @@ public class HomeWork37 {
         // when integer value is 3 it returns to the multiplication of those
         // 2 double numbers, and when the integer value is 4 it returns the division of those 2 double numbers
 
+        System.out.println(calculator(5,10.0,2.0));
+
+
     }//end main
+    public static double calculator (int options, double num1, double num2)
+    {
+        double result=0;
+
+        if(options == 1){
+            result=num1+num2;
+        } else if (options == 2) {
+           result=num1-num2;
+        }else if (options == 3) {
+             result= num1 * num2;
+        }else if (options == 4) {
+            result = num1 / num2;
+        }
+        return result;
+    }
+
+
+
 }
