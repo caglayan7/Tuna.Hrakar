@@ -11,10 +11,8 @@ Name your Method as (GotoSleeporWork)
 Based on your parameter, if you are in weekdays, return "Go To Work" otherwise return "Go Back to Sleep".
          */
         System.out.println(days(5));
-
     }
     public static String days (int param1) {
-
         if (param1 <= 5) {
             return "Go To Work";
         } else if (param1 >= 6 || param1 <= 7) {

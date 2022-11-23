@@ -11,7 +11,7 @@ public class HomeWork42 {
  notString("Not Home") == > "Not Home"
          */
         System.out.println("Adding() = " + Adding("NotCar"));
-
+        System.out.println("Adding() = " + Adding(" Car"));
     }
     public static String Adding (String param1){
         if (param1.contains("Not")){

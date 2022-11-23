@@ -30,10 +30,7 @@ public class HomeWork38 {
         }
         System.out.println("First Highest number: " + max1);
         System.out.println("Second Highest number: " + max2);
-
-
     }
-
     public static void twoLowestNums(int[] param1) {
         int min1 = Integer.MAX_VALUE;
         int min2 = Integer.MAX_VALUE;
@@ -47,7 +44,6 @@ public class HomeWork38 {
         }
         System.out.println("First Lowest number: " + min1);
         System.out.println("Second Lowest number: " + min2);
-
     }
 }
 

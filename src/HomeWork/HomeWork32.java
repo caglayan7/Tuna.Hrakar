@@ -18,7 +18,6 @@ public class HomeWork32 {
             System.out.println("Please enter the "+(i+1)+". number: ");
             int num = scan.nextInt();
             array[i] = num;
-
         }
         int [] reversedArray = new int[number];
                 int reversed = 0;
@@ -28,9 +27,6 @@ public class HomeWork32 {
                 }
                 System.out.println("Original array: "+Arrays.toString(array));
                 System.out.println("Reversed Array: "+ Arrays.toString(reversedArray));
-
-
-
         }
     }
 

@@ -21,8 +21,5 @@ You can create a constructor and set values there or not. It is OPTIONAL.
         int Age = Pers.Person();
         System.out.println("Age of Person: "+Age);
 
-
-
-
     }
 }

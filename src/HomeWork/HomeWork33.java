@@ -21,9 +21,6 @@ public class HomeWork33 {
             sum += salaries[i];
         }
         System.out.println("The average employee salary: "+sum/size);
-
-
         }
-
     }
 
